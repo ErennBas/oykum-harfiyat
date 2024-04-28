@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
-
-<!-- Mirrored from pro-theme.com/html/antek/page-contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Mar 2024 10:54:35 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
   <meta charset="utf-8">
   <title>Contact Us</title>
@@ -24,12 +22,9 @@
 </head>
 
 <body class="page-contacts">
-    
        <!-- Loader-->
       <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div>
       <!-- Loader end-->
-    
-    
   <div class="page-wrapper">
     <header class="page-header">
       <div class="page-header-top">
@@ -107,6 +102,7 @@
         </div>
       </div>
     </header>
+
     <main class="page-main">
       <div class="page-head">
         <div class="page-head__bg" style="background-image: url(assets/img/bg/bg_contacts.jpg)">
@@ -116,8 +112,8 @@
               <div class="page-head__title"> Bize Ulaşın</div>
               <div class="page-head__breadcrumb">
                 <ul class="uk-breadcrumb">
-                  <li><a href="#">Ana sayfa</a></li>
-                  <li><span>iletişim</span></li>
+                  <li><a href="/anasayfa">Ana Sayfa</a></li>
+                  <li><span>İletişim</span></li>
                 </ul>
               </div>
             </div>
@@ -131,32 +127,28 @@
               <div class="uk-width-1-3@m">
                 <div class="sidebar">
                   <div class="widjet widjet-contacts">
-                    <h4 class="widjet__title">İletişim Detayları</h4>
+                    <h4 class="widjet__title">İletişim Bilgileri</h4>
                     <ul class="contacts-list">
                       <li class="contacts-list-item">
                         <div class="contacts-list-item__icon"><img src="assets/img/icons/ico-contact-1.svg" data-uk-svg alt="HeadOffice Address"></div>
                         <div class="contacts-list-item__desc">
                           <div class="contacts-list-item__label">Genel Merkez Adresi</div>
-                          <div class="contacts-list-item__content">354 Oakridge Lane, Camden NJ 08102 - USA</div>
-                        </div>
-                      </li>
-                      <li class="contacts-list-item">
-                        <div class="contacts-list-item__icon"><img src="assets/img/icons/ico-contact-2.svg" data-uk-svg alt="For Rental Support"></div>
-                        <div class="contacts-list-item__desc">
-                          <div class="contacts-list-item__label">Kiralama Desteği İçin</div>
-                          <div class="contacts-list-item__content"><a href="tel:12367995500/6600">+1 (236) 799 5500 / 6600</a></div>
+						  <!-- TODO Burayı Adres gelince değiştireceğiz-->
+                          <div class="contacts-list-item__content">354 Oakridge Lane, Camden NJ 08102 - USA</div> 
                         </div>
                       </li>
                       <li class="contacts-list-item">
                         <div class="contacts-list-item__icon"><img src="assets/img/icons/ico-contact-3.svg" data-uk-svg alt="The Office Hours"></div>
                         <div class="contacts-list-item__desc">
-                          <div class="contacts-list-item__label">Ofis Saatleri</div>
-                          <div class="contacts-list-item__content">Pazartesi - Cumartesi 08:00 - 18:00</div>
+                          <div class="contacts-list-item__label">Çalışma Saatleri</div>
+						  <!-- TODO çalışma saatlerini öğrendikten sonra doğrulayalım-->
+                          <div class="contacts-list-item__content">Pazartesi - Cumartesi 09:00 - 18:00</div>
                         </div>
                       </li>
                       <li class="contacts-list-item">
                         <div class="contacts-list-item__icon"><img src="assets/img/icons/ico-contact-4.svg" data-uk-svg alt="Send Us Email"></div>
                         <div class="contacts-list-item__desc">
+							<!-- TODO burayı mail kesinleştikten sonra güncelleyeceğiz-->
                           <div class="contacts-list-item__label">Bize E-posta Gönderin</div>
                           <div class="contacts-list-item__content"> <a href="mailto:rentals@my-domain.net">rentals@my-domain.net</a></div>
                         </div>
@@ -168,17 +160,16 @@
               <div class="uk-width-2-3@m">
                 <div class="block-form">
                   <div class="section-title">
-                    <div class="uk-h2">Bir mesaj göndermek</div>
+                    <div class="uk-h2">Bir Mesaj Gönder</div>
                   </div>
                   <div class="section-content">
-                    <p>E-posta hesabınız yayımlanmayacak. Gerekli alanlar ile işaretlenmiştir *</p>
+                    <p>Zorunlu alanlar yıldız (*) ile işaretlenmiştir.</p>
                     <form action="#!">
                       <div class="uk-grid uk-grid-small uk-child-width-1-2@s" data-uk-grid>
-                        <div><input class="uk-input uk-form-large" type="text" placeholder="İsim *"></div>
-                        <div><input class="uk-input uk-form-large" type="text" placeholder="Email *"></div>
-                        <div class="uk-width-1-1"><input class="uk-input uk-form-large" type="text" placeholder="Ders"></div>
+                        <div><input class="uk-input uk-form-large" type="text" placeholder="İsim *" required></div>
+                        <div><input class="uk-input uk-form-large" type="text" placeholder="Email *" required></div>
                         <div class="uk-width-1-1"><textarea class="uk-textarea uk-form-large" placeholder="Mesajınız.."></textarea></div>
-                        <div><button class="uk-button uk-button-large" type="submit"> <span>Mesaj Gönder</span><img src="assets/img/icons/arrow.svg" alt="arrow" data-uk-svg></button></div>
+                        <div><button class="uk-button uk-button-large" type="submit"> <span>Mesajı Gönder</span><img src="assets/img/icons/arrow.svg" alt="arrow" data-uk-svg></button></div>
                       </div>
                     </form>
                   </div>
@@ -195,11 +186,11 @@
             <div class="section-cta__img"><img src="assets/img/img-cta.png" alt=""></div>
             <div class="section-cta__title"> <span>Harfiyat İşlerinizde Profesyonel Çözümler İçin  <br> Hemen İletişime Geçin. </span></div>
             <div class="section-cta__support">
-              <div class="support"> <a class="support__link" href="tel:236-799-5500">
+              <div class="support"> <a class="support__link" href="tel:905357048358">
                   <div class="support__icon"><i class="fas fa-headset"></i></div>
                   <div class="support__desc">
                     <div class="support__label">Hızlı Destek Alın </div>
-                    <div class="support__phone">236-799-5500</div>
+                    <div class="support__phone">0535 704 83 58</div>
                   </div>
                 </a></div>
             </div>
@@ -207,6 +198,7 @@
         </div>
       </div>
     </main>
+
     <footer class="page-footer">
       <div class="uk-container uk-container-large">
         <div class="page-footer-top">
@@ -352,6 +344,4 @@
   <script src="assets/js/main.js"></script>
 </body>
 
-
-<!-- Mirrored from pro-theme.com/html/antek/page-contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Mar 2024 10:54:36 GMT -->
 </html>
