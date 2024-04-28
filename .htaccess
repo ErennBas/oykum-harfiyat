@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^iletisim$ /page-contacts.html [NC,L]
+RewriteRule ^iletisim$ /contact.html [NC,L]
