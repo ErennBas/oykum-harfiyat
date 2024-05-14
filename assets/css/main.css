@@ -5721,3 +5721,87 @@ body.page-categories-2 .page-footer:before {
         transform: rotate(360deg);
     }
 }
+
+
+
+.about-container {
+    display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+.about-content {
+    flex: 1;
+    margin-right: 60px;
+
+}
+
+.about-title{
+	width: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.vizyon-container,
+.misyon-container {
+	display: flex;
+    flex: 1;
+    margin-top: 20px;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 16px;
+}
+
+.vizyon-image{
+	width: 100%;
+    max-width: 500px;
+}
+
+.vizyon-text{
+	width: 600px;
+}
+
+.misyon-image{
+	width: 100%;
+    max-width: 500px;
+}
+
+.misyon-text{
+	width: 600px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 425px) {
+	.vizyon-container,
+    .misyon-container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .vizyon-image,
+    .misyon-image {
+        width:100%;
+        max-width: none;
+    }
+
+    .vizyon-text,
+    .misyon-text {
+        width: 100%;
+        max-width: none;
+    }
+}
